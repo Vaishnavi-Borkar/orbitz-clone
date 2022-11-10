@@ -3,7 +3,7 @@ import SignIn from "./SignIn";
 function AllRoutes() {
     return (
         <Routes>
-            <Route path="/" elements={<SignIn />} />
+            <Route exact path="/SignIn" elements={<SignIn />} />
 
 
         </Routes>
