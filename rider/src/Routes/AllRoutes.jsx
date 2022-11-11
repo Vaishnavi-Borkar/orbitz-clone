@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import SignIn from "./SignIn";
+import SignIn from "../Components/SignIn";
 function AllRoutes() {
     return (
         <Routes>
