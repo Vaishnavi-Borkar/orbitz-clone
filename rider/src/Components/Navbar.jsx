@@ -17,7 +17,9 @@ function Navbar() {
 
                     </Box>
                     <Box style={{ alignItems: "center", marginLeft: "20px", display: "flex" }}>
-                        <p>Menu</p>
+                        <Link to="/hotel">
+                            <h1>Hotels</h1>
+                        </Link>
                     </Box>
                     <Spacer />
 
@@ -28,7 +30,7 @@ function Navbar() {
                             <Box>Support</Box>
                             <Box>Trips</Box>
 
-                            <Link style={{ marginRight: "30px", textDecoration: "none", color: "white" }} to="/SignIn">Sign in</Link>
+                            <Link style={{ marginRight: "30px", textDecoration: "none", color: "white" }} to="/login">Login</Link>
                         </HStack>
                     </Box>
                 </Box>

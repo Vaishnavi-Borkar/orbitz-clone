@@ -15,7 +15,7 @@ function AuthContextProvider({ children }) {
         setState({
             ...state,
             isAuth: true,
-            token
+            token: 123
         })
     }
 
