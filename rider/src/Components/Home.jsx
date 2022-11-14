@@ -115,6 +115,39 @@ function Home() {
                         <Box sx={basicBoxStyles} filter='auto' brightness='40%'>Jes and reset</Box>
                     </Flex>
                 </Stack>
+                <Text fontSize='50px' style={{ marginBottom: "50px", marginLeft: "30px" }}>Travel offers</Text>
+                <Stack style={{ marginBottom: "50px" }}>
+                    <Flex gap='24px'>
+                        <Box><Image src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg" /> </Box>
+                        <Box><Image src="https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg" /></Box>
+                    </Flex>
+                </Stack>
+                <Stack style={{ marginBottom: "30px" }}>
+                    <Flex gap='24px'>
+
+                        <Box><Image src="https://images.trvl-media.com/hotels/1000000/470000/465100/465005/b6be1b6d.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" />
+                            <Text>Price:₹ 2200</Text>
+                            <Text>Citi:New Delhi</Text>
+                            <Text>Address:-Plot No. 10, GMR Hospitality District, Indira Gandhi International Airport, New Delhi, Delhi N.C.R, 110037</Text>
+                            <Button>Book now</Button>
+                        </Box>
+                        <Box><Image src="https://images.trvl-media.com/hotels/4000000/3860000/3851700/3851663/958ad657.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" />
+                            <Text>Price:₹ 5200</Text>
+                            <Text>Citi:Delhi</Text>
+                            <Text>
+                                Address:-Diplomatic Enclave Chanakyapuri, New Delhi, Delhi N.C.R, 110023
+                            </Text>
+                            <Button>Book now</Button>
+                        </Box>
+                        <Box><Image src="https://images.trvl-media.com/hotels/10000000/9150000/9141400/9141328/b50c24b2.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" />
+                            <Text>Price:₹ 3000</Text>
+                            <Text>Citi:Delhi</Text>
+                            <Text>Address:-15 Parliament Street, Near Connaught Place, New Delhi, Delhi N.C.R, 110001</Text>
+                            <Button >Book now</Button>
+                        </Box>
+                    </Flex>
+                </Stack>
+                <Box style={{ marginLeft: "200px", marginBottom: "30px" }}><Image src="https://tpc.googlesyndication.com/simgad/10056509806482740393?" /> </Box>
             </Box>
         </>
     )
